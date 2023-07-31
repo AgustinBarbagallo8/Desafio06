@@ -4,10 +4,10 @@ var cantidadDeGatos = 5;
 
 var cantidadDePasos = 3;
 
-for (var i = 1; i <= cantidadDeGatos; i++) {
+for (var gato = 1; gato <= cantidadDeGatos; gato++) {
   var pasos = '';
-  for (var j = 0; j < cantidadDePasos; j++) {
+  for (var paso = 0; paso < cantidadDePasos; paso++) {
     pasos += '🐾';
   }
-  console.log('Gato #' + i + ': 🐈 ' + pasos);
+  console.log('Gato #' + gato + ': 🐈 ' + pasos);
 }
