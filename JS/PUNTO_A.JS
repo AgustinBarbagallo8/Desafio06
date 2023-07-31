@@ -1,3 +1,5 @@
+console.log("/* PUNTO A */")
+
 var cantidadDeGatos = 10;
 
 for (var gatos = 1; gatos <= cantidadDeGatos; gatos++) {
